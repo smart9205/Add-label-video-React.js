@@ -9,7 +9,6 @@ import ReactPlayer from 'react-player';
 
 import video from "./assets/play23.mp4";
 //Need to download this video from
-//https://drive.google.com/file/d/1xbRM63Y1zO8L7k_PE18u53DWB3I8w-dA/view?usp=sharing
 
 const App = () => {
   const videoElement = useRef(null);
