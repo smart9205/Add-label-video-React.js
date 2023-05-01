@@ -1,0 +1,129 @@
+body {
+  background: #EEEEEE;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: '86%';
+  margin: 'auto'; 
+  position: 'relative';
+}
+
+h1 {
+  color: white;
+}
+
+video {
+  width: 100%;
+}
+
+
+
+.video-wrapper:hover .controls {
+  transform: translateY(0%);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 30px;
+  padding: 14px;
+  width: 100%;
+  max-width: 500px;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.fnbuttons {  
+  width: 100%;
+  position:absolute;
+  top:0;
+  left:15;
+  display: flex;
+}
+
+.fnbuttons img{
+  width: 15px;
+  height:auto
+}
+
+
+
+.detection {
+  display: flex;
+  top: 0;
+  justify-content: space-evenly;
+  position: absolute;  
+  width: 97%;
+  height: 97%;
+  flex-wrap: wrap;  
+  pointer-events: none;
+}
+
+
+
+
+.velocity {
+  appearance: none;
+  background: none;
+  color: white;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.mute-btn {
+  background-color: none;
+  color: white;
+  font-size: 20px;
+}
+
+.bx-play {
+  background-image: url(./assets/icons/play.png);
+}
+
+.bx-pause {
+  background-image: url(./assets/icons/stop.png);
+}
+
+.bxs-volume-full {
+  background-image: url(./assets/icons/mute.png);
+}
+
+.bxs-volume-mute {
+  background-image: url(./assets/icons/unmute.png);
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 1080px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
